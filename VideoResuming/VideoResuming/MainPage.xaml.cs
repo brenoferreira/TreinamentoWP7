@@ -15,21 +15,24 @@ namespace VideoResuming
 {
     public partial class MainPage : PhoneApplicationPage
     {
+        TimeSpan tempo;
         // Constructor
         public MainPage()
         {
             InitializeComponent();
+
+            this.DataContext = tempo;
         }
 
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
-            var time = new TimeSpan();
+            this.tempo = new TimeSpan();
             if (State.ContainsKey("Time"))
-                time = (TimeSpan)State["Time"];
+                this.tempo = (TimeSpan)State["Time"];
 
             this.videoPlayer.MediaOpened += (sender, ev) =>
             {
-                this.videoPlayer.Position = time;
+                this.videoPlayer.Position = this.tempo;
                 this.videoPlayer.Play();
             };
 

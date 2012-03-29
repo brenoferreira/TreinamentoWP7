@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{843650BB-6C75-470C-BFAD-10C025253321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApp1", "PhoneApp1\PhoneApp1.csproj", "{DEA452FD-B361-4689-960D-BC9D199F96BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{843650BB-6C75-470C-BFAD-10C025253321} = {843650BB-6C75-470C-BFAD-10C025253321}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843650BB-6C75-470C-BFAD-10C025253321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843650BB-6C75-470C-BFAD-10C025253321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843650BB-6C75-470C-BFAD-10C025253321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843650BB-6C75-470C-BFAD-10C025253321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA452FD-B361-4689-960D-BC9D199F96BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA452FD-B361-4689-960D-BC9D199F96BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA452FD-B361-4689-960D-BC9D199F96BE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DEA452FD-B361-4689-960D-BC9D199F96BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA452FD-B361-4689-960D-BC9D199F96BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA452FD-B361-4689-960D-BC9D199F96BE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

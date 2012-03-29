@@ -1,5 +1,5 @@
 ﻿<phone:PhoneApplicationPage 
-    x:Class="VideoResuming.MainPage"
+    x:Class="PhoneApp1.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -27,12 +27,7 @@
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock Text="{Binding Position, ElementName=videoPlayer}"
-                       Height="63"
-                       VerticalAlignment="Top" />
-            <MediaElement x:Name="videoPlayer" AutoPlay="False" />
-        </Grid>
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"></Grid>
     </Grid>
  
     <!--Sample code showing usage of ApplicationBar-->
