@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearchWP7", "TwitterSearchWP7\TwitterSearchWP7.csproj", "{6B7C009F-23F9-4286-9596-FE46572AE125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearchWP7.Twitter", "TwitterSearchWP7.Twitter\TwitterSearchWP7.Twitter.csproj", "{750C9015-EC21-483B-ADF2-B41FE9FD1BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearchWP7.SearchAgent", "TwitterSearchWP7.SearchAgent\TwitterSearchWP7.SearchAgent.csproj", "{1030EFD2-378A-49FB-A4E7-54575232D249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B7C009F-23F9-4286-9596-FE46572AE125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7C009F-23F9-4286-9596-FE46572AE125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7C009F-23F9-4286-9596-FE46572AE125}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6B7C009F-23F9-4286-9596-FE46572AE125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7C009F-23F9-4286-9596-FE46572AE125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7C009F-23F9-4286-9596-FE46572AE125}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{750C9015-EC21-483B-ADF2-B41FE9FD1BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750C9015-EC21-483B-ADF2-B41FE9FD1BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750C9015-EC21-483B-ADF2-B41FE9FD1BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750C9015-EC21-483B-ADF2-B41FE9FD1BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1030EFD2-378A-49FB-A4E7-54575232D249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1030EFD2-378A-49FB-A4E7-54575232D249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1030EFD2-378A-49FB-A4E7-54575232D249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1030EFD2-378A-49FB-A4E7-54575232D249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
